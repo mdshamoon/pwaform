@@ -11,15 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::group(['namespace'=>'mdshamoon\pwaform\controller'],function()
+{
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -33,3 +29,11 @@ Route::post('/killer','DataController@storeall');
 Route::get('/second', function () {
     return view('details');
 });
+
+})
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+

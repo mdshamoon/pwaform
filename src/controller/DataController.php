@@ -2,6 +2,7 @@
 
 namespace mdshamoon\pwaform\controller;
 
+use App\Http\Controllers\Controller;
 use App\Userdata;
 use Illuminate\Http\Request;
 

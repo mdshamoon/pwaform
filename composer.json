@@ -18,9 +18,7 @@
     },
 
      "autoload": {
-        "classmap": [
-	
-        ],
+       
         "psr-4": {
            
             "mdshamoon\\pwaform\\": "src/"
