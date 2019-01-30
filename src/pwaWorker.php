@@ -28,6 +28,8 @@ class pwaWorker extends ServiceProvider
     public function register()
     {
          
-       
+       $this->app->singleton(mdshamoon\pwaform\pwaWorker::class, function (Application $app) {
+    return new pwaWorker();
+});
     }
 }
