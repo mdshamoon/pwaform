@@ -30,7 +30,7 @@ Route::get('/second', function () {
     return view('details');
 });
 
-})
+});
 
 // Route::get('/', function () {
 //     return view('welcome');
