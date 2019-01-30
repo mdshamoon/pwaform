@@ -9,6 +9,14 @@
     ],
     "require": {},
 
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mdshamoon\\pwaform\\pwaWorker"
+            ]
+        }
+    },
+
      "autoload": {
         "classmap": [
 	
