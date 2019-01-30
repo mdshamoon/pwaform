@@ -1,0 +1,21 @@
+{
+    "name": "mdshamoon/pwaform",
+    "description": "A web form which saves data in your browser when offline using service workers and upload it to the database when there is an active connection.",
+    "authors": [
+        {
+            "name": "Mohd Shamoon",
+            "email": "shamoonmalik143@gmail.com"
+        }
+    ],
+    "require": {},
+
+     "autoload": {
+        "classmap": [
+	
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "mdshamoon\\pwaform\\": "src/"
+        }
+    },
+}
