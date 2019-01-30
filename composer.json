@@ -17,5 +17,5 @@
             "App\\": "app/",
             "mdshamoon\\pwaform\\": "src/"
         }
-    },
+    }
 }
