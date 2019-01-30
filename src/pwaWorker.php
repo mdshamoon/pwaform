@@ -15,7 +15,7 @@ class pwaWorker extends ServiceProvider
 
          $this->loadRoutesFrom(__DIR__.'/web.php');
         $this->loadMigrationsFrom(__DIR__.'/migrations');
-        $this->loadViewsFrom(__DIR__.'/views');
+        $this->loadViewsFrom(__DIR__.'/views','pwaform');
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/pwaform'),
         ]);
