@@ -19,7 +19,7 @@ Route::group(['namespace'=>'mdshamoon\pwaform\controller'],function()
 
 Route::get('/home', function(){
 return view('welcome');
-};
+});
 
 Route::post('/kill','DataController@store');
 
