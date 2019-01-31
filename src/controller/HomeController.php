@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace mdshamoon\pwaform\controller;
 
 use Illuminate\Http\Request;
 
