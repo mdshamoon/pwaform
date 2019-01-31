@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-
-use App\Userdata;
+namespace mdshamoon\pwaform\controller;
+use App\Http\Controllers\Controller;
+use mdshamoon\pwaform\models\Userdata;
 use Illuminate\Http\Request;
 
 class DataController extends Controller
@@ -13,8 +13,10 @@ class DataController extends Controller
     public function check()
     {
         
-        return view('details');
+        return "jjss";
     }
+
+
      public function store(Request $request)
     {
          
