@@ -18,7 +18,7 @@ Route::group(['namespace'=>'mdshamoon\pwaform\controller'],function()
 
 
 Route::get('/welcome', function(){
-return view('mdshamoon.pwaform.welcome');
+return view('pwaform::welcome');
 
 });
 
@@ -30,7 +30,7 @@ Route::post('/killer','DataController@storeall');
 
 
 Route::get('/second', function () {
-    return view('mdshamoon.pwaform.details');
+    return view('pwaform::details');
 });
 
 });
