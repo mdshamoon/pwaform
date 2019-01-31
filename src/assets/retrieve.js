@@ -124,7 +124,7 @@ function getData() {
    
 
      myRecord = objectStoreRequest.result;
-     var html= '<table class="table"> <thead class="thead-dark"> <tr><th scope="col">Name</th><th scope="col">Age</th><th scope="col">Gender</th> <th scope="col">Options</th>  </tr></thead><tbody>';
+     var html= '<table class="table"> <thead class="thead-dark"> <tr><th scope="col">Name</th><th scope="col">Age</th><th scope="col">Gender</th> </tr></thead><tbody>';
   //
 myRecord.forEach(function(element)
 {
@@ -132,10 +132,6 @@ myRecord.forEach(function(element)
       '<td>'+element.name+'</td>'+
       '<td>'+element.age+'</td>'+
       '<td>'+element.gender+'</td>'+
-      '<td><button class="btn btn-success mr-3">Edit</button><button class="btn btn-danger">Delete</button></td>'+
-
-
-
     '</tr>'
 
 

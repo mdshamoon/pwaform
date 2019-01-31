@@ -26,7 +26,7 @@ Route::post('/kill','DataController@store');
 
 Route::post('/killer','DataController@storeall');
 
-
+Route::post('/yo','DataController@check');
 
 Route::get('/second', function () {
     return view('pwaform.details');
