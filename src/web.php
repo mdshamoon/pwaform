@@ -17,7 +17,7 @@ Route::group(['namespace'=>'mdshamoon\pwaform\controller'],function()
 
 
 
-Route::get('/home', function(){
+Route::get('/welcome', function(){
 return view('mdshamoon.pwaform.welcome');
 
 });
