@@ -1,4 +1,6 @@
 <?php
+
+
 namespace mdshamoon\pwaform;
 
 
@@ -17,7 +19,7 @@ class pwaWorker extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/migrations');
         $this->loadViewsFrom(__DIR__.'/views','pwaform');
         $this->publishes([
-            __DIR__.'/views' => base_path('resources/views/mdshamoon/pwaform'),
+            __DIR__.'/views' => base_path('resources/views/pwaform'),
         ]);
     }
     /**
@@ -27,9 +29,7 @@ class pwaWorker extends ServiceProvider
      */
     public function register()
     {
-         
-       $this->app->singleton(mdshamoon\pwaform\pwaWorker::class, function (Application $app) {
-    return new pwaWorker();
+       var_dump("expression");
 });
     }
 }
