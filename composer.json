@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "mdshamoon\\pwaform\\pwaWorker"
+                "mdshamoon\\pwaform\\PwaServiceProvider"
             ]
         }
     },

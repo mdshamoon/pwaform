@@ -5,7 +5,7 @@ namespace mdshamoon\pwaform;
 
 
 use Illuminate\Support\ServiceProvider;
-class pwaWorker extends ServiceProvider
+class PwaServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
