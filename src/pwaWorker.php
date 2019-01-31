@@ -29,7 +29,7 @@ class pwaWorker extends ServiceProvider
      */
     public function register()
     {
-       var_dump("expressio");
+       var_dump("expressiono");
 
     }
 }
