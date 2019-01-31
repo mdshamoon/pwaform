@@ -29,7 +29,7 @@ Route::post('/killer','DataController@storeall');
 
 
 Route::get('/second', function () {
-    return view('details');
+    return view('pwaform.details');
 });
 
 });
