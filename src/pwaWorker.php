@@ -21,6 +21,12 @@ class pwaWorker extends ServiceProvider
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/pwaform'),
         ]);
+
+        $this->publishes([
+        __DIR__.'/assets' => public_path('js'),
+        __DIR__.'/serviceworkers' => public_path('/'),
+
+    ], 'public');
     }
     /**
      * Register the application services.
