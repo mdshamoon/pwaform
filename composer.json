@@ -24,4 +24,6 @@
             "mdshamoon\\pwaform\\": "src/"
         }
     }
+
+    , "minimum-stability": "dev"
 }
