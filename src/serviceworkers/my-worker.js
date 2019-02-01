@@ -68,7 +68,7 @@ if (event.request.method === 'GET') {
     console.log('form_datayo', form_data)
     event.respondWith(fetch(event.request.clone()).catch(function (error) {
       // only save post requests in browser, if an error occurs
-       if(event.request.clone().url=='http://localhost/kill')
+       if(event.request.clone().url==event.request.clone().referrer+'kill')
       savePostRequests(event.request.clone().url, form_data)
     }))
   }
